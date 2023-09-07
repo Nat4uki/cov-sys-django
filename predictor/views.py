@@ -145,6 +145,11 @@ def task_listen(request, task_id):
         'current': task_status.result['current'],
         'total': task_status.result['total']
     }
+    # json_data = {
+    #     'state': task_status.state,
+    #     'current': task_status.result['current'],
+    #     'total': task_status.result['total']
+    # }
     return JsonResponse(json_data)
 
 

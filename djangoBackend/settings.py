@@ -82,7 +82,7 @@ DATABASES = {
         "HOST": "127.0.0.1",  # mysql地址
         "PORT": "3306",  # mysql端口
         "USER": "root",  # mysql用户
-        "PASSWORD": "",  # mysql密码
+        "PASSWORD": "covsys",  # mysql密码
     }
 }
 
